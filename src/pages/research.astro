@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+
+import Nav from '../components/Nav.astro';
+import '../styles/common.css'
+
+
+---
+
+<Layout title="Phoebe Friesen - Research">
+	
+    <Nav />		
+	
+
+	<main>
+
+		<p class="instructions">
+			Philosopher working in Biomedical ethics at McGill, in Montreal Canada.
+		</p>
+
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="placebo-effect"
+				title="The Placebo Effect"
+				body=""
+			/>
+			<Card
+				href="research-ethics-and-oversight"
+				title="Research Ethics and Oversight"
+				body=""
+			/>
+			<Card
+				href="psychiatric-research-and-practice"
+				title="Psychiatric Research and Practice"
+				body=""
+			/>
+			<Card
+				href="medicine-and-inequality"
+				title="Medicine and Inequality"
+				body=""
+			/>
+		</ul>
+	</main>
+</Layout>
+
+<style>
+	
+</style>

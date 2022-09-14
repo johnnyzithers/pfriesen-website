@@ -1,0 +1,57 @@
+[
+    {
+        "imageUrl": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
+
+        "title":  "Current Teaching",
+        "title2": "Contributing Lecturer",
+        "title3": "Past Teaching",
+        "title4": "Independent Instructor",
+        "title5": "Teaching Assistant",
+        "title6": "Guest Lecturer",
+
+        "independent": [
+            {
+                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
+                "desc": "",
+                "futher": "",
+                "link" : ""
+            },
+            
+        ],
+        "contributing": [
+            {
+                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
+                "desc": "",
+                "futher": "",
+                "link" : ""
+            },
+            
+        ],
+        "independent2": [
+            {
+                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
+                "desc": "",
+                "futher": "",
+                "link" : ""
+            },
+            
+        ],
+        "teaching": [
+            {
+                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
+                "desc": "",
+                "futher": "",
+                "link" : ""
+            },
+            
+        ],
+        "guest": [
+            {
+                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
+                "desc": "",
+                "futher": "",
+                "link" : ""
+            },   
+        ]
+    }
+ ]

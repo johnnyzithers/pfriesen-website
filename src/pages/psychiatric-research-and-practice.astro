@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LongCard from '../components/LongCard.astro';
+
+import Nav from '../components/Nav.astro';
+import '../styles/common.css'
+
+
+import psychData from '../data/psych.json';
+
+
+
+---
+
+<Layout title="Phoebe Friesen - Psychiatric Research and Practice">
+	
+    <Nav />		
+
+	<main>
+		<ul role="list" class="link-card-grid">
+			{psychData.map((data) => 
+			<LongCard 
+				title = {data.title}
+				title2 = {data.title2}
+				title3 = {data.title3}
+				title4 = {data.title4}
+				image = {data.imageUrl}
+				paras = {data.paragraphs}
+				reptexts = {data.reptexts}
+				rectexts = {data.rectexts}
+                media = {data.media}
+				>
+			</LongCard>
+			)}
+		</ul>
+
+	</main>
+</Layout>
+
+<style>
+	
+</style>

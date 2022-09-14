@@ -5,21 +5,28 @@ import Card from '../components/Card.astro';
 import Nav from '../components/Nav.astro';
 import '../styles/common.css'
 
+
 ---
 
-<Layout title="Phoebe Friesen">
+<Layout title="Phoebe Friesen - Research">
 	
-	<div class="header">
-		<Nav />		
-	</div>
+    <Nav />		
+	
 
 	<main>
 
 		<p class="instructions">
 			Philosopher working in Biomedical ethics at McGill, in Montreal Canada.
 		</p>
-		
-		image
+
+		<ul role="list" class="link-card-grid">
+			<Card
+				href=""
+				title="About Phoebe"
+				body=""
+			/>
+			
+		</ul>
 	</main>
 </Layout>
 

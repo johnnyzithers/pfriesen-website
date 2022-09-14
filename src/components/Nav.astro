@@ -1,0 +1,92 @@
+---
+const menu = [
+  { url: '/', text: 'Home' },
+  { url: '/about', text: 'About'},
+  { url: '/research', text: 'Research'},
+  { url: '/teaching', text: 'Teaching'},
+  { url: '/cv', text: 'CV'}
+];
+---
+
+<header >
+    <nav class="navigation-banner">
+      <!-- <h2> -->
+        <div class="navigation-name">
+            <a href="/">
+              <div class="navigation-link">
+                <h4>
+                  Phoebe Friesen
+                </h4>
+              </div>
+            </a>
+        </div>
+        
+      <!-- </h2> -->
+      <!-- <ul> -->
+        <div class="navigation-link-holder">
+
+            
+            <a href="/about" >
+                <div class="navigation-link">
+                    <h5>About</h5>
+            </div>
+            </a>
+            <a href="/research">
+                <div class="navigation-link">
+                    <h5>Research</h5>
+            </div>   
+            </a>
+            <a href="/teaching" >
+                <div class="navigation-link">
+                    <h5>Teaching</h5>
+                </div>    
+            </a>
+            
+            <a href="/cv" >
+                <div class="navigation-link">
+                    <h5>CV</h5>
+                </div>    
+            </a>
+
+        </div>
+    
+      <!-- </ul> -->
+    </nav>
+  </header>
+
+  <style>
+    
+    .navigation-name{
+        display: flex;
+        flex-direction: row;
+        flex-grow: 2;
+        /* width: 100vw; */
+    }
+    .navigation-link-holder {
+        display: flex;
+        /* flex: 0 0 100%; */
+
+    }   
+    .navigation-link{
+      margin: 0.5em;
+      flex-grow: 1;
+      /* float: bottom; */
+    }
+    .navigation-banner {
+        display: flex;
+        flex-direction: row;
+
+
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background-color: white;
+		/* padding-bottom: 1em; */
+		/* padding: 1em; */
+
+
+        /* width: 10em; */
+        /* background-color: orange; */
+    }
+    
+    </style>

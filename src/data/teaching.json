@@ -3,6 +3,7 @@
         "imageUrl": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
 
         "title":  "Current Teaching",
+        "title1": "Independent Instructor",
         "title2": "Contributing Lecturer",
         "title3": "Past Teaching",
         "title4": "Independent Instructor",
@@ -11,47 +12,141 @@
 
         "independent": [
             {
-                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
-                "desc": "",
-                "futher": "",
+                "text": "Bioethical Theory",
+                "desc": [
+                    "Biomedical Ethics Unit, McGill University, graduate course"
+                ],
+                "further": "Syllabus can be found here",
                 "link" : ""
             },
+            {
+                "text": "Dissecting the Placebo Effect",
+                "desc": [
+                    "4th year, Undergraduate Medical Education, McGill University"
+                ],
+                "further": "",
+                "link" : ""
+            },
+            {
+                "text": "Research Fundamentals",
+                "desc": [
+                    "1st year, Undergraduate Medical Education, McGill University"
+                ],
+                "further": "",
+                "link" : ""
+            }
             
         ],
         "contributing": [
             {
-                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
-                "desc": "",
-                "futher": "",
+                "text": "Medical Ethics and Health Law, ​Undergraduate Medical Education, McGill University",
+                "desc": [
+                    "Introduction to Medical Ethics: Principles and Approaches",
+                    "Boundaries and Truth-Telling",
+                    "Medical Assistance in Dying"
+                ],
+                "further": "",
                 "link" : ""
             },
+            {
+                "text": "Ethics and Health Research",
+                "desc": [
+                    "Qualitative and Mixed Methods in International Health Research, Institute of Tropical Medicine Antwerp"
+                ],
+                "further": "",
+                "link" : ""
+            }
             
         ],
         "independent2": [
             {
-                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
-                "desc": "",
-                "futher": "",
+                "text": "Ethical Theories",
+                "desc": [
+                    "Philosophy Department, Baruch College, undergraduate course"
+                ],
+                "further": "Syllabus can be found here",
                 "link" : ""
-            },
-            
+            }, 
+            {
+                "text": "Computer Ethics",
+                "desc": [
+                    "Philosophy Department, Baruch College, undergraduate course"
+                ],
+                "further": "Syllabus can be found here",
+                "link" : ""
+            }, 
+            {
+                "text": "Clinical Moral Reasoning",
+                "desc": [
+                    "Bioethics Program, Icahn School of Medicine at Mount Sinai, Medical Education"
+                ],
+                "further": "",
+                "link" : ""
+            }
         ],
         "teaching": [
             {
-                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
-                "desc": "",
-                "futher": "",
+                "text": "Neuroethics",
+                "desc": [
+                    "Bioethics Program, NYU, Graduate Course"
+                ],
+                "further": "",
                 "link" : ""
             },
+            {
+                "text": "Professional Ethics ",
+                "desc": [
+                    "Philosophy Department, Western University, Undergraduate Course"
+                ],
+                "further": "",
+                "link" : ""
+            },
+            {
+                "text": "Business Ethics ",
+                "desc": [
+                    "Philosophy Department, Western University, Undergraduate Course"
+                ],
+                "further": "",
+                "link" : ""
+            }
             
         ],
         "guest": [
+
             {
-                "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
-                "desc": "",
-                "futher": "",
+                "text": "Clinical Ethics Consultations",
+                "desc": [
+                    "Bioethics Program, Clarkson University and Icahn School of Medicine at Mount Sinai, MSc Program"
+                ],
+                "further": "",
                 "link" : ""
-            },   
+            },
+            {
+                "text": "Bioethics",
+                "desc": [
+                    "Bioethics Program, Icahn School of Medicine at Mount Sinai, Medical Education",
+                    "Ethox Centre, University of Oxford, PhD Program"
+                ],
+                "further": "",
+                "link" : ""
+            },
+            {
+                "text": "Research Ethics",
+                "desc": [
+                    "Biochemistry Program, University of Oxford, Undergraduate Course",
+                    "Centre for Evidence Based Medicine, University of Oxford, Continuing Education Course"
+                ],
+                "further": "",
+                "link" : ""
+            },
+            {
+                "text": "Ethics of Data Monitoring",
+                "desc": [
+                    "Experimental and Translational Therapeutics, University of Oxford, Continuing Education Course"
+                ],
+                "further": "",
+                "link" : ""
+            }
         ]
     }
  ]

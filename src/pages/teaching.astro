@@ -1,11 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-
+import TeachingCard from '../components/TeachingCard.astro';
 import Nav from '../components/Nav.astro';
 import '../styles/common.css'
-
-
+import teachData from '../data/teaching.json';
 ---
 
 <Layout title="Phoebe Friesen - Teaching">
@@ -15,35 +13,31 @@ import '../styles/common.css'
 
 	<main>
 
-		<p class="instructions">
-			Philosopher working in Biomedical ethics at McGill, in Montreal Canada.
-		</p>
-
 		<ul role="list" class="link-card-grid">
-			<Card
-				href=""
-				title="Current Teaching"
-				body=""
-			/>
-			<Card
-				href=""
-				title="Past Teaching"
-				body=""
-			/>
-			<Card
-				href=""
-				title="Psychiatric Research and Practice"
-				body=""
-			/>
-			<Card
-				href=""
-				title="Medicine and Inequality"
-				body=""
-			/>
+			{teachData.map((data) => 
+			<TeachingCard 
+				title = {data.title}
+				title1 = {data.title1}
+				title2 = {data.title2}
+				title3 = {data.title3}
+				title4 = {data.title4}
+				title5 = {data.title5}
+				title6 = {data.title6}
+				image = {data.imageUrl}
+				independent = {data.independent}
+				independent2 = {data.independent2}
+				contributing = {data.contributing}
+                teaching = {data.teaching}
+                guest = {data.guest}
+				>
+			</TeachingCard>
+			)}
 		</ul>
 	</main>
 </Layout>
 
 <style>
-	
+	ul{
+		list-style-type: none;
+	}
 </style>

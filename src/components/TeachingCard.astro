@@ -1,0 +1,156 @@
+---
+export interface Props {
+	title: string;
+	body: string;
+	href: string;
+}
+
+const { title, title1, title2, title3, title4, title5, title6, independent, independent2, teaching, contributing, guest} = Astro.props;
+---
+
+<div class="link-card">
+	
+    <div class="heading-div">
+        <h2> {title} </h2>
+    </div>  
+    <div class="heading-div">
+        <h2> {title1} </h2>
+    </div>
+    {independent.map((ind) => (
+        <div class="citation-holder">
+                <li><ul>
+                    <li class="course-name"><h4>{ind.text}</h4></li>
+                    <li class="desc">{ind.desc}</li>
+                    <a href={ind.link}> 
+                        <li class="further">{ind.further}</li>
+                    </a>
+                </ul></li> 
+        </div>
+    ))}
+    <div class="heading-div">
+        <h2> {title2} </h2>
+    </div>
+    {contributing.map((ctb) => (
+        <div class="citation-holder">
+                <li><ul>
+                    <li class="course-name">{ctb.text}</li>
+                    <li class="desc">{ctb.desc}</li>
+                    <a href={ctb.link}> 
+                        <li class="further">{ctb.further}</li>                    
+                    </a>
+                </ul></li> 
+        </div>
+    ))}
+        
+    <div class="heading-div">
+        <h2> {title3} </h2>
+    </div>
+    <div class="heading-div">
+        <h2> {title4} </h2>
+    </div>
+    {independent2.map((ind2) => (
+        <div class="citation-holder">
+                <li><ul>
+                    <li class="course-name">{ind2.text}</li>
+                    <li class="desc">{ind2.desc}</li>
+                    <a href={ind2.link}> 
+                        <li class="further">{ind2.further}</li>                    
+                    </a>
+                </ul></li> 
+        </div>
+    ))}
+    
+
+
+    <div class="heading-div">
+        <h2> {title5} </h2>
+    </div>
+    {teaching.map((tch) => (
+        <div class="citation-holder">
+        
+                <ul>
+                    <li class="course-name">{tch.text}</li>
+                    <li class="desc">{tch.desc}</li>
+                    <a href={tch.link}> 
+                        <li class="further">{tch.further}</li>                    
+                    </a>
+                </li> 
+        </div>
+    ))}
+
+    <div class="heading-div">
+        <h2> {title6} </h2>
+    </div>
+
+    {guest.map((gst) => (
+        <div class="citation-holder">
+                
+                    <ul>
+                        <li class="course-name">{gst.text}</li>
+                        <li class="desc">{gst.desc}</li>
+                        <a href={gst.link}> 
+                            <li class="further">{gst.further}</li>                    
+                        </a>
+                    </ul>
+                
+        </div>
+    ))}
+
+
+</div>
+<style>
+	:root {
+		--link-gradient: linear-gradient(45deg, #4f39fa, #da62c4 30%, var(--color-border) 60%);
+	}
+
+	.link-card {
+		width: 100%;
+		text-decoration: none;
+		line-height: 1.4;
+		padding: 1em 1.3em;
+		border-radius: 0.35rem;
+		color: var(--text-color);
+		background-color: white;
+		opacity: 0.8;
+	}
+    
+    .desc {
+        margin-left: 2em;
+    }
+    .further{
+        margin-left: 4em;
+    }
+	h2 {
+		margin: 0;
+		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	}
+
+	p {
+		margin-top: 0.75rem;
+		margin-bottom: 0;
+	}
+    .heading-div{
+        margin-top: 1em;
+    }
+    .citation-holder {
+        margin: 1em;
+    }
+
+	h2 span {
+		display: inline-block;
+		transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+	}
+
+	.link-card:is(:hover, :focus-within) {
+		background-position: 0;
+	}
+
+	.link-card:is(:hover, :focus-within) h2 {
+		color: #4f39fa;
+	}
+
+	.link-card:is(:hover, :focus-within) h2 span {
+		will-change: transform;
+		transform: translateX(2px);
+	}
+</style>

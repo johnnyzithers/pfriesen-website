@@ -1,28 +1,27 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-
+import AboutCard from '../components/AboutCard.astro';
 import Nav from '../components/Nav.astro';
 import '../styles/common.css'
-
-
+import teachData from '../data/teaching.json';
 ---
 
-<Layout title="Phoebe Friesen - Research">
+<Layout title="Phoebe Friesen - About">
 	
     <Nav />		
 	
-
 	<main>
 
-		<!-- <p class="instructions">
-			Philosopher working in Biomedical ethics at McGill, in Montreal Canada.
-		</p> -->
-
-		I am a philosopher and medical ethicist, working within the Biomedical Ethics Unit and the Department of Social Studies of Medicine at McGill University. My work engages with ethical and epistemic issues related to the production and implementation of knowledge in the health sciences, drawing on feminist philosophy of science, ethics scholarship, and methodologies from the social sciences.
+		<ul role="list" class="link-card-grid">
+			<AboutCard 
+				
+			</AboutCard>
+		</ul>
 	</main>
 </Layout>
 
 <style>
-	
+	ul{
+		list-style-type: none;
+	}
 </style>

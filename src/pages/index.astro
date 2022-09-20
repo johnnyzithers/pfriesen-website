@@ -1,8 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
+import ImageCard from '../components/ImageCard.astro'
 import Nav from '../components/Nav.astro';
-import '../styles/common.css'
+import indexData from '../data/index.json';
+
+import '../styles/common.css';
 ---
 
 <Layout title="Phoebe Friesen">
@@ -16,6 +18,12 @@ import '../styles/common.css'
 			Philosopher working in Biomedical ethics at McGill, in Montreal Canada.
 		</p>
 		
+		{indexData.map((data) => 
+			<ImageCard
+				image = {data.image}
+				>
+			</ImageCard>
+			)}
 		
 	</main>
 </Layout>

@@ -1,9 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import AboutCard from '../components/AboutCard.astro';
+import ImageCard from '../components/ImageCard.astro';
 import Nav from '../components/Nav.astro';
+
+import aboutData from '../data/about.json';
+
 import '../styles/common.css'
-import teachData from '../data/teaching.json';
 ---
 
 <Layout title="Phoebe Friesen - About">
@@ -17,6 +20,15 @@ import teachData from '../data/teaching.json';
 				
 			</AboutCard>
 		</ul>
+
+
+		{aboutData.map((data) => 
+			<ImageCard
+				image = {data.image}
+				>
+			</ImageCard>
+			)}
+
 	</main>
 </Layout>
 

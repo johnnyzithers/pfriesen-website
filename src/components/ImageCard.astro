@@ -7,7 +7,7 @@ export interface Props {
 const { image, title } = Astro.props;
 ---
 
-<div class="link-card">
+<div class="card-holder">
 	
     <img class="card-image" src={image} alt={title}> 
 
@@ -19,15 +19,22 @@ const { image, title } = Astro.props;
 		--link-gradient: linear-gradient(45deg, #4f39fa, #da62c4 30%, var(--color-border) 60%);
 	}
 
-	.link-card {
-		width: 100%;
+	.card-image {
+		border: 2px solid green;
+	}
+
+	.card-holder{
+		display: grid;
+		place-items: center;
+
+		/* width: 100%;
 		text-decoration: none;
 		line-height: 1.4;
 		padding: 1em 1.3em;
 		border-radius: 0.35rem;
 		color: var(--text-color);
 		background-color: white;
-		opacity: 0.8;
+		opacity: 0.8; */
 	}
 
 	h2 {

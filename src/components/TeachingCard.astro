@@ -5,99 +5,62 @@ export interface Props {
 	href: string;
 }
 
-const { title, title1, title2, title3, title4, title5, title6, independent, independent2, teaching, contributing, guest} = Astro.props;
+const { maintitle, subtitle1, subtitle2, subtitle3, subtitle4, subtitle5, subtitle6, section1, section2, section3, section4, section5} = Astro.props;
 ---
 
 <div class="link-card">
 	
     <div class="heading-div">
-        <h2> {title} </h2>
+        <h2> {maintitle} </h2>
     </div>  
 
     <div class="heading-div">
-        <h3> {title1} </h3>
+        <h3> {subtitle1} </h3>
     </div>
     
-    {independent.map((ind) => (
+    {section1.map((sec1) => (
         <div class="citation-holder">
                 <li><ul>
-                    <li class="course-name"><h4>{ind.text}</h4></li>
-                    <li class="desc">{ind.desc}</li>
-                    <a href={ind.link}> 
-                        <li class="further">{ind.further}</li>
+                    <li class="course-name"><h4>{sec1.text}</h4></li>
+                    <li class="desc">{sec1.desc}</li>
+                    <a href={sec1.link}> 
+                        <li class="further">{sec1.further}</li>
                     </a>
                 </ul></li> 
         </div>
     ))}
     
     <div class="heading-div">
-        <h3> {title2} </h3>
+        <h3> {subtitle2} </h3>
     </div>
 
-    {contributing.map((ctb) => (
+    {section2.map((sec2) => (
         <div class="citation-holder">
                 <li><ul>
-                    <li class="course-name">{ctb.text}</li>
-                    <li class="desc">{ctb.desc}</li>
-                    <a href={ctb.link}> 
-                        <li class="further">{ctb.further}</li>                    
-                    </a>
-                </ul></li> 
-        </div>
-    ))}
-        
-    <div class="heading-div">
-        <h2> {title3} </h2>
-    </div>
-
-    <div class="heading-div">
-        <h3> {title4} </h3>
-    </div>
-
-    {independent2.map((ind2) => (
-        <div class="citation-holder">
-                <li><ul>
-                    <li class="course-name">{ind2.text}</li>
-                    <li class="desc">{ind2.desc}</li>
-                    <a href={ind2.link}> 
-                        <li class="further">{ind2.further}</li>                    
+                    <li class="course-name">{sec2.text}</li>
+                    <li class="desc">{sec2.desc}</li>
+                    <a href={sec2.link}> 
+                        <li class="further">{sec2.further}</li>                    
                     </a>
                 </ul></li> 
         </div>
     ))}
 
     <div class="heading-div">
-        <h3> {title5} </h3>
-    </div>
-    {teaching.map((tch) => (
-        <div class="citation-holder">
-            <li><ul>
-                <li class="course-name">{tch.text}</li>
-                <li class="desc">{tch.desc}</li>
-                <a href={tch.link}> 
-                    <li class="further">{tch.further}</li>                    
-                </a>
-            </ul></li> 
-        </div>
-    ))}
-
-    <div class="heading-div">
-        <h3> {title6} </h3>
+        <h3> {subtitle4} </h3>
     </div>
 
-    {guest.map((gst) => (
+    {section3.map((sec3) => (
         <div class="citation-holder">
-            <li><ul>
-                <li class="course-name">{gst.text}</li>
-                <li class="desc">{gst.desc}</li>
-                <a href={gst.link}> 
-                    <li class="further">{gst.further}</li>                    
-                </a>
-            </ul></li> 
+                <li><ul>
+                    <li class="course-name">{sec3.text}</li>
+                    <li class="desc">{sec3.desc}</li>
+                    <a href={sec3.link}> 
+                        <li class="further">{sec3.further}</li>                    
+                    </a>
+                </ul></li> 
         </div>
     ))}
-
-
 </div>
 <style>
 	:root {

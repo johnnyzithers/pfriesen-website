@@ -1,16 +1,19 @@
 [
     {
-        "imageUrl": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
+        "image1": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
+        "image2": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
 
-        "title":  "Current Teaching",
-        "title1": "Independent Instructor",
-        "title2": "Contributing Lecturer",
-        "title3": "Past Teaching",
-        "title4": "Independent Instructor",
-        "title5": "Teaching Assistant",
-        "title6": "Guest Lecturer",
+        "maintitle":  "Current Teaching",
+        "subtitle1": "Independent Instructor",
+        "subtitle2": "Contributing Lecturer",
+        "subtitle3": "",
+        
+        "maintitle2": "Past Teaching",
+        "subtitle4": "Independent Instructor",
+        "subtitle5": "Teaching Assistant",
+        "subtitle6": "Guest Lecturer",
 
-        "independent": [
+        "section1": [
             {
                 "text": "Bioethical Theory",
                 "desc": [
@@ -37,7 +40,7 @@
             }
             
         ],
-        "contributing": [
+        "section2": [
             {
                 "text": "Medical Ethics and Health Law, ​Undergraduate Medical Education, McGill University",
                 "desc": [
@@ -58,7 +61,22 @@
             }
             
         ],
-        "independent2": [
+        "section3": [
+            {
+                "text": "",
+                "desc": [],
+                "further": "",
+                "link" : ""
+            },
+            {
+                "text": "",
+                "desc": [],
+                "further": "",
+                "link" : ""
+            }
+            
+        ],
+        "section4": [
             {
                 "text": "Ethical Theories",
                 "desc": [
@@ -84,7 +102,7 @@
                 "link" : ""
             }
         ],
-        "teaching": [
+        "section5": [
             {
                 "text": "Neuroethics",
                 "desc": [
@@ -111,7 +129,7 @@
             }
             
         ],
-        "guest": [
+        "section6": [
 
             {
                 "text": "Clinical Ethics Consultations",

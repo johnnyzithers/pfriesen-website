@@ -6,7 +6,7 @@ import '../styles/common.css'
 import teachData from '../data/teaching.json';
 ---
 
-<Layout title="Phoebe Friesen - Teaching">
+<Layout title="Teaching | Phoebe Friesen">
 	
     <Nav />		
 	
@@ -15,19 +15,32 @@ import teachData from '../data/teaching.json';
 		<ul role="list" class="link-card-grid">
 			{teachData.map((data) => 
 			<TeachingCard 
-				title = {data.title}
-				title1 = {data.title1}
-				title2 = {data.title2}
-				title3 = {data.title3}
-				title4 = {data.title4}
-				title5 = {data.title5}
-				title6 = {data.title6}
 				image = {data.imageUrl}
-				independent = {data.independent}
-				independent2 = {data.independent2}
-				contributing = {data.contributing}
-                teaching = {data.teaching}
-                guest = {data.guest}
+
+				maintitle = {data.maintitle}
+				subtitle1 = {data.subtitle1}
+				subtitle2 = {data.subtitle2}
+				subtitle3 = {data.subtitle3}
+				
+				
+                section1 = {data.section1}
+                section2 = {data.section2}
+				section3 = {data.section3}
+                
+				>
+			</TeachingCard>
+
+			<TeachingCard 
+				image = {data.imageUrl}
+
+				maintitle = {data.maintitle2}
+				subtitle1 = {data.subtitle3}
+				subtitle2 = {data.subtitle4}
+				subtitle3 = {data.subtitle5}
+		
+                section1 = {data.section3}
+                section2 = {data.section4}
+                section3 = {data.section5}
 				>
 			</TeachingCard>
 			)}

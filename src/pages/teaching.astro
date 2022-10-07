@@ -15,13 +15,12 @@ import teachData from '../data/teaching.json';
 		<ul role="list" class="link-card-grid">
 			{teachData.map((data) => 
 			<TeachingCard 
-				image = {data.imageUrl}
+				image = {data.image1}
 
 				maintitle = {data.maintitle}
 				subtitle1 = {data.subtitle1}
 				subtitle2 = {data.subtitle2}
 				subtitle3 = {data.subtitle3}
-				
 				
                 section1 = {data.section1}
                 section2 = {data.section2}
@@ -31,7 +30,7 @@ import teachData from '../data/teaching.json';
 			</TeachingCard>
 
 			<TeachingCard 
-				image = {data.imageUrl}
+				image = {data.image2}
 
 				maintitle = {data.maintitle2}
 				subtitle1 = {data.subtitle3}

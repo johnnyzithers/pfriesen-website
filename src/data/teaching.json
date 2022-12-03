@@ -4,15 +4,10 @@
         "image2": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
 
         "maintitle":  "Current Teaching",
-        "subtitle1": "Independent Instructor",
-        "subtitle2": "Contributing Lecturer",
+        "subtitle1": "Courses I am currently teaching include:",
+        "subtitle2": "",
         "subtitle3": "",
         
-        "maintitle2": "Past Teaching",
-        "subtitle4": "Independent Instructor",
-        "subtitle5": "Teaching Assistant",
-        "subtitle6": "Guest Lecturer",
-
         "section1": [
             {
                 "text": "Bioethical Theory",
@@ -20,151 +15,24 @@
                     "Biomedical Ethics Unit, McGill University, graduate course"
                 ],
                 "further": "Syllabus can be found here",
-                "link" : ""
+                "link" : "https://www.dropbox.com/s/q63xlz5xcahprru/Syllabus%20Bioethical%20Theory.pdf?dl=0"
             },
             {
                 "text": "Dissecting the Placebo Effect",
                 "desc": [
                     "4th year, Undergraduate Medical Education, McGill University"
                 ],
-                "further": "",
-                "link" : ""
-            },
-            {
-                "text": "Research Fundamentals",
-                "desc": [
-                    "1st year, Undergraduate Medical Education, McGill University"
-                ],
-                "further": "",
-                "link" : ""
-            }
-            
-        ],
-        "section2": [
-            {
-                "text": "Medical Ethics and Health Law, ​Undergraduate Medical Education, McGill University",
-                "desc": [
-                    "Introduction to Medical Ethics: Principles and Approaches",
-                    "Boundaries and Truth-Telling",
-                    "Medical Assistance in Dying"
-                ],
-                "further": "",
-                "link" : ""
-            },
-            {
-                "text": "Ethics and Health Research",
-                "desc": [
-                    "Qualitative and Mixed Methods in International Health Research, Institute of Tropical Medicine Antwerp"
-                ],
-                "further": "",
-                "link" : ""
-            }
-            
-        ],
-        "section3": [
-            {
-                "text": "",
-                "desc": [],
-                "further": "",
-                "link" : ""
-            },
-            {
-                "text": "",
-                "desc": [],
-                "further": "",
-                "link" : ""
-            }
-            
-        ],
-        "section4": [
-            {
-                "text": "Ethical Theories",
-                "desc": [
-                    "Philosophy Department, Baruch College, undergraduate course"
-                ],
                 "further": "Syllabus can be found here",
-                "link" : ""
-            }, 
-            {
-                "text": "Computer Ethics",
-                "desc": [
-                    "Philosophy Department, Baruch College, undergraduate course"
-                ],
-                "further": "Syllabus can be found here",
-                "link" : ""
-            }, 
-            {
-                "text": "Clinical Moral Reasoning",
-                "desc": [
-                    "Bioethics Program, Icahn School of Medicine at Mount Sinai, Medical Education"
-                ],
-                "further": "",
-                "link" : ""
-            }
-        ],
-        "section5": [
-            {
-                "text": "Neuroethics",
-                "desc": [
-                    "Bioethics Program, NYU, Graduate Course"
-                ],
-                "further": "",
-                "link" : ""
+                "link" : "https://www.dropbox.com/s/5o9kzqtlrabb1at/Syllabus%20Dissecting%20the%20Placebo%20Effect.pdf?dl=0"
             },
             {
-                "text": "Professional Ethics ",
+                "text": "Medical Ethics and Health Law",
                 "desc": [
-                    "Philosophy Department, Western University, Undergraduate Course"
+                    "​Undergraduate Medical Education, McGill University, Contributing Lecturer"
                 ],
                 "further": "",
                 "link" : ""
-            },
-            {
-                "text": "Business Ethics ",
-                "desc": [
-                    "Philosophy Department, Western University, Undergraduate Course"
-                ],
-                "further": "",
-                "link" : ""
-            }
-            
-        ],
-        "section6": [
-
-            {
-                "text": "Clinical Ethics Consultations",
-                "desc": [
-                    "Bioethics Program, Clarkson University and Icahn School of Medicine at Mount Sinai, MSc Program"
-                ],
-                "further": "",
-                "link" : ""
-            },
-            {
-                "text": "Bioethics",
-                "desc": [
-                    "Bioethics Program, Icahn School of Medicine at Mount Sinai, Medical Education",
-                    "Ethox Centre, University of Oxford, PhD Program"
-                ],
-                "further": "",
-                "link" : ""
-            },
-            {
-                "text": "Research Ethics",
-                "desc": [
-                    "Biochemistry Program, University of Oxford, Undergraduate Course",
-                    "Centre for Evidence Based Medicine, University of Oxford, Continuing Education Course"
-                ],
-                "further": "",
-                "link" : ""
-            },
-            {
-                "text": "Ethics of Data Monitoring",
-                "desc": [
-                    "Experimental and Translational Therapeutics, University of Oxford, Continuing Education Course"
-                ],
-                "further": "",
-                "link" : ""
-            }
+            }   
         ]
     }
  ]

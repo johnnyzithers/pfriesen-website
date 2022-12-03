@@ -3,37 +3,41 @@
         "title": "Medicine and Inequality",
         "imageUrl": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
         "paragraphs": [
-            "I am committed to engaging with issues of inequality and oppression, in their many forms, within my bioethical and philosophical scholarship. Some examples of this work include an argument against the practice of nonconsensual educational pelvic exams on  anesthetized patients by medical students (which has contributed to the introduction of bills requiring consent in at least 17 state legislatures in the United States), a critical discussion of the role of personal responsibility in decisions related to resource allocation in health care, and an investigation of the push away from using the term ‘medically assisted suicide’. I have also worked collaboratively on projects related to ethical issues in gender affirming care for youth, requests for re-infibulation in cases of female genital cutting, and whether an unequal distribution of placebo effects in clinical encounters is exacerbating existing health disparities in racialized groups."
+            "I am committed to engaging with issues of inequality and oppression, in their many forms, within my bioethical and philosophical scholarship. For several years, I have argued that the practice of non-consensual educational pelvic exams on anesthetized patients by medical students is morally problematic and that all patients should have the opportunity to consent for an intimate exam is performed on their unconscious body. This scholarship, along with the legal advocacy of Robin Wilson’s team at the Epstein Program and the voices of many others, has led to a sweeping legislative shift in the United States, with 13 new laws requiring consent for pelvic exams on anesthetized patients being passed since 2021, and dozens being introduced. More information on the Epstein Program ",
+            "I have also written about issues related to race and medical research, including how white ignorance shows up in pain research and how placebo /nocebo effects are likely to be unfairly distributed across populations as a result of the unequal treatment of racialized patients in the clinical encounter. Further work on inequality and medicine includes a critical discussion of the role of personal responsibility in decisions related to resource allocation in health care, and an investigation of the push away from using the term ‘medically assisted suicide’."
         ],
+
+        "extralink" : "https://www.epsteinprogram.com/states-banning-unauthorized-pelvic-exams",
+        "extralinkdesc" : "here.",
         "title2": "Representative Papers",
         "reptexts": [
             {
                 "text": "Friesen, P. (2020) Trust in Health Care after the Death of Joyce Echaquan. Impact Ethics.",
-                "link": ""
+                "link": "https://impactethics.ca/2020/11/09/trust-in-health-care-after-the-death-of-joyce-echaquan/"
             },
             {
                 "text": "Friesen, P. (2018) Educational pelvic exams on anesthetized women: why consent matters, Bioethics. 32(5), 298-307.",
-                "link": ""
+                "link": "https://www.researchgate.net/publication/324721606_Educational_pelvic_exams_on_anesthetized_women_Why_consent_matters"
             },
             {
-                "text": "Friesen, P. (2016). Personal responsibility within health policy: unethical and ineffective, Journal of Medical Ethics.",
-                "link": ""
+                "text": "Friesen, P., & Blease, C. (2018) Placebo Effects and Racial and Ethnic Health Disparities: An unjust and unexplored connection, Journal of Medical Ethics.​",
+                "link": "https://www.researchgate.net/publication/325955395_Placebo_effects_and_racial_and_ethnic_health_disparities_An_unjust_and_underexplored_connection"
+            },
+            {
+                "text": "Friesen, P. (2016). Personal responsibility within health policy: unethical and ineffective, Journal of Medical Ethics.",
+                "link": "https://www.researchgate.net/publication/308548289_Personal_responsibility_within_health_policy_Unethical_and_ineffective"
             },
             {
                 "text": "Friesen, P., Gligorov, N., (2022) White Ignorance in Pain Research: Racial Differences and Racial Disparities. Kennedy Institute of Ethics Journal. (accepted Sept 16, 2021)",
-                "link": ""
+                "link": "https://muse.jhu.edu/article/858853"
             },
             {
                 "text": "Friesen, P., Perez, T., Towle, S., (2021) Birthing Alone: An Ethical Analysis of Pandemic Policies Banning Birthing Partners International Journal of Feminist Approaches to Bioethics ",
-                "link": ""
+                "link": "https://www.utpjournals.press/doi/abs/10.3138/ijfab-14.2.08?journalCode=ijfab"
             }
         ],
         "title3": "Recent Talks",
         "rectexts": [
-            {
-                "text": "\"Birthing Alone: An Ethical Analysis of Pandemic Policies Banning Birthing Partners\" (Oct 14th, 2021) at the Vancouver Island Perinatal Grand Rounds",
-                "link": ""
-            },
             {
                 "text": "\"The Moral Significance of Educational Pelvic Exams\" (November 30th, 2021) Reproductive Health Scholars Program, organized by the American Medical Student Association (panel with Fretwell Wilson, R., Silver-Isenstadt, A., Weitz, A., Goedken, J.)",
                 "link": ""
@@ -43,79 +47,79 @@
         "media": [
             {
                 "text": "The New York Times",
-                "link": ""
+                "link": "https://www.nytimes.com/2020/02/17/health/pelvic-medical-exam-unconscious.html"
             },
             {
                 "text": "This American Life",
-                "link": ""
+                "link": "https://www.thisamericanlife.org/661/but-thats-what-happened"
             },
             {
                 "text": "The Associated Press",
-                "link": ""
+                "link": "https://apnews.com/article/north-america-ut-state-wire-bills-wa-state-wire-ct-state-wire-c309d388b10b4fe582753e3b1f768f94"
             },
             {
                 "text": "VICE",
-                "link": ""
+                "link": "https://www.vice.com/en/article/43j59n/medical-students-allowed-to-do-pelvic-exams-on-unconscious-patients-without-consent"
             },
             {
                 "text": "ELLE",
-                "link": ""
+                "link": "https://www.elle.com/life-love/a28125604/nonconsensual-pelvic-exams-teaching-hospitals/"
             },
             {
                 "text": "ABC4",
-                "link": ""
+                "link": "https://www.abc4.com/news/local-news/bill-to-require-consent-for-pelvic-exams-on-patients-under-anesthesia/1797503696/"
             },
             {
                 "text": "WBAL Maryland",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=mMHlGhCDBTM"
             },
             {
                 "text": "Forbes",
-                "link": ""
+                "link": "https://www.forbes.com/sites/paulhsieh/2018/05/14/pelvic-exams-on-anesthetized-women-without-consent-a-troubling-and-outdated-practice/"
             },
             {
                 "text": "Bust",
-                "link": ""
+                "link": "https://www.google.com/url?sa=D&q=https://bust.com/feminism/195099-public-exams-anesthesia.html&ust=1670152860000000&usg=AOvVaw2LwJsXHUO5rnN0dHhEArIE&hl=en&source=gmail"
             },
             {
                 "text": "Medscape",
-                "link": ""
+                "link": "https://www.medscape.com/viewarticle/894693?nlid=122141_905&amp;src=WNL_mdplsfeat_180508_mscpedit_obgy&amp;uac=15265FV&amp;spon=16&amp;impID=1627365&amp;faf=1"
             },
             {
                 "text": "Medium",
-                "link": ""
+                "link": "https://medium.com/@holympus/its-time-to-completely-stop-unconsented-pelvic-examinations-cef80c38b334"
             },
             {
                 "text": "Gothamist",
-                "link": ""
+                "link": "https://gothamist.com/news/new-york-state-bill-seeks-to-stop-nonconsensual-pelvic-exams"
             },
             {
                 "text": "Capital Gazette",
-                "link": ""
+                "link": "https://www.capitalgazette.com/politics/ac-cn-unconscious-patients-20190212-story.html"
             },
             {
                 "text": "Deseret News",
-                "link": ""
+                "link": "https://www.deseret.com/article/900048756/the-ethics-of-pelvic-exams-performed-on-anesthetized-women-without-their-knowledge.html"
             },
             {
                 "text": "Commonwealth",
-                "link": ""
+                "link": "https://commonwealthmagazine.org/health-care/bills-bar-nonconsensual-pelvic-exams-under-anesthesia/"
             },
             {
                 "text": "The Bridge",
-                "link": ""
+                "link": "https://www.bridgemi.com/michigan-health-watch/pelvic-exams-surgery-not-without-womans-consent-michigan-lawmaker-vows"
             },
             {
                 "text": "Houston Chronicle",
-                "link": ""
+                "link": "https://www.houstonchronicle.com/opinion/outlook/article/Why-Texas-must-ban-non-consensual-pelvic-exams-14866390.php"
             },
             {
                 "text": "Snopes",
-                "link": ""
+                "link": "https://www.snopes.com/fact-check/pelvic-exams-informed-consent/"
             },
             {
                 "text": "Throwing Shade",
-                "link": ""
+                "link": "https://www.earwolf.com/episode/342-rainbow-washing-pelvic-exams-on-anesthetized-women-guest-brian-jordan-alvarez/"
             }
             
         ]

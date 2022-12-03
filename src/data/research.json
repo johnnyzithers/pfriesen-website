@@ -3,28 +3,38 @@
         "title": "Research Ethics and Oversight",
         "imageUrl": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
         "paragraphs": [
-            "I began working on issues related to research ethics and oversight while working as a Research Assistant in the Division of Medical Ethics at New York University and continued to do so while a post doc at the Ethox Centre at the University of Oxford. Collaborative papers I have written on this topic include an evaluation of the Belmont Report in relation to the state of research ethics today, an examination of issues faced by the many novel regulatory bodies (e.g., conflict of interest committees, data safety monitoring boards) that have been developed in in the realm of research oversight, and a discussion of how research ethics and oversight ought to proceed in response to developing neurotechnologies. ",
-            "Currently, I am leading a SSHRC-funded project on the topic of community involvement in research ethics oversight. This project aims to examine the demands, justifications, and strategies of various communities who seek to have a greater voice in governing the research that impacts them. I am also interested in how new forms of research, particularly those utilizing machine learning and especially in the domain of psychiatry, challenge our current systems of research ethics oversight. I am also part of an international working group seeking to examine justifications underlying participatory research and oversight. "
+            "Currently, I am leading a SSHRC-funded project on the topic of community involvement in research ethics oversight. This project involves an examination of the demands, justifications, and strategies of various communities who seek to have a greater voice in governing the research that impacts them. In April of 2022, we organized an event celebrating some of the phenomenal examples of community-led research governance in Canada, particularly in Indigenous and urban communities – you can watch the video of the presentations and read a summary of the discussion ",
+            "I have also worked on a variety of collaborative projects related to research ethics and oversight, including an evaluation of the Belmont Report in relation to the state of research ethics today, an examination of issues faced by the many novel regulatory bodies (e.g., conflict of interest committees, data safety monitoring boards) that have been developed in in the realm of research oversight, and a discussion of how research ethics and oversight ought to proceed in response to developing neurotechnologies. Recently, I have been thinking abou how new forms of research, especially those utilizing machine learning and especially in the domain of psychiatry, challenge our current systems of research ethics oversight."
         ],
+        "extralink" : "https://www.mcgill.ca/biomedicalethicsunit/seminars",
+        "extralinkdesc" : "here.",
         "title2": "Representative Papers",
         "reptexts": [
             {
-                "text": "Friesen, P. (2019) Placebos as a Source of Agency: Evidence and Implications. Frontiers in Psychiatry (Psychosomatic Medicine). Special Issue: Placebo and Nocebo Effects in Psychiatry and Beyond, Eds. Enck, P., Weimer, K., Colloca, L., Dodd, S.",
+                "text": "Friesen, P., Douglas-Jones, R., Marks, M., Pierce R., Fletcher, K., Mishra, A., Lorimer, J., Veliz, C., Hallowell, N., Graham, M., Chan, M.S. Davies, H., Sallamuddin, T. (2020) Governing AI-Driven Health Research: Are IRBs up to the Task? Ethics and Human Research",
+                "link": "https://onlinelibrary.wiley.com/toc/25782363/2021/43/4"
+            },
+            {
+                "text": "Friesen, P., Yusof, A., Sheehan, M. (2019) Should the Decisions of Institutional Review Boards be Consistent? Ethics and Human Research.",
+                "link": "https://www.researchgate.net/publication/334642044_Should_the_Decisions_of_Institutional_Review_Boards_Be_Consistent"
+            },
+            {
+                "text": "Friesen, P., Kearns, L., Redman, B., &amp; Caplan, A. L. (2017). Rethinking the Belmont Report? The American Journal of Bioethics.",
+                "link": "https://www.researchgate.net/publication/318033029_Rethinking_the_Belmont_Report"
+            },
+            {
+                "text": "Gunay, A., Doerksen, E., Friesen, P. (2023) Community Research Ethics Oversight: Place, Experience, and Expertise. Ethical Issues in Stakeholder-Engaged Health Research. Springer, Eds. Anderson, E.",
                 "link": ""
             },
             {
-                "text": "Friesen, P., Lignou, S., Sheehan, M., Singh, I. (2019) Measuring the Impact of Participatory Research in Psychiatry: How the search for epistemic justifications obscures ethical considerations. Health Expectations. Special Issue: Showcasing Patient and Public Involvement and Engagement in Mental Health Research.",
-                "link": ""
-            },
-            {
-                "text": "Wusinich, C., Lindy, D., Russell, D., Pessin, N., Friesen, P. (2020) Experiences of Parachute NYC: An Integration of Open Dialogue and Intentional Peer Support, Community Mental Health Journal.",
-                "link": ""
+                "text": "Friesen, P., Luke Gelinas, Aaron Kirby, David H Strauss, Barbara E Bierer (2022) IRBs and The Protection-Inclusion Dilemma: Finding a Balance. American Journal of Bioethics (target article)",
+                "link": "https://www.tandfonline.com/doi/abs/10.1080/15265161.2022.2063434?needAccess=true&amp;journalCode=uajb20"
             }
         ],
         "title3": "Recent Talks",
         "rectexts": [
             {
-                "text": "Gunay, A., Doerksen, E., Friesen, P. (2022) Community Research Ethics Oversight: Place, Experience, and Expertise. Ethical Issues in Stakeholder-Engaged Health Research. Springer, Eds. Anderson, E.",
+                "text": "\"A Philosopher's Look at the Belmont Principles (aka \"Chicken Soup for the HRPP Professional's Soul)\" (November 19th, 2021) at PRIM&R’s Advancing Ethical Research Conference (panel with Hood, R., Schonfeld, T.)",
                 "link": ""
             },
             {

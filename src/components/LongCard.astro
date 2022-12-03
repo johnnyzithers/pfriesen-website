@@ -5,7 +5,7 @@ export interface Props {
 	href: string;
 }
 
-const { title, title2, title3, title4, image, paras, reptexts, rectexts, media  } = Astro.props;
+const { title, title2, title3, title4, image, paras, extralink, extralinkdesc, extralink2, extralinkdesc2, reptexts, rectexts, media  } = Astro.props;
 ---
 
 <div class="link-card">
@@ -15,8 +15,10 @@ const { title, title2, title3, title4, image, paras, reptexts, rectexts, media  
         </div>
 		
         <div class="paragraph-holder">
-            <p> {paras[0]} </p>
-            <p> {paras[1]} </p>
+            <p> {paras[0]} 
+            <a href={extralink}> {extralinkdesc}</a> </p>
+            <p> {paras[1]}
+            <a href={extralink2}> {extralinkdesc2}</a> </p>
             <p> {paras[2]} </p>
         </div>
 		    
